@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.navigasi ul {
+	list-style: none;
+	width: 500px;
+	height: 50px;
+}
+
+.navigasi ul a {
+	text-decoration: none;
+}
+
+.navigasi ul li ul {
+	display: none;
+	padding-left: 0px;
+	width: 100px;
+}
+
+.navigasi ul li:hover {
+	background : grey;
+}
+.navigasi ul li:hover ul {
+	display: block;
+}
+
+.navigasi ul li {
+	float: left;
+	width: 150px;
+	height: 35px;
+	background : black;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.navigasi a {
+	color : #fff;
+	font-family: "Bookman Old Style";
+	font-size: 15px;
+}
+
+.navigasi {
+	background-color: black;
+}
+
+.artikel {
+	text-align: center;
+	font-family: "candara";
+	background-color: #ddd;
+	color: black;
+	font-size: 25px;
+	padding-top: 50px;
+	padding-bottom: 200px;
+}
+
+#tentang {
+	font-size: 18px;
+	text-align: justify;
+	padding-top: 20px;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-bottom: 20px;
+}
+
+.footer {
+	background-color: black;
+	padding-top: 50px;
+	padding-bottom: 150px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.footer p {
+	color: white;
+	font-family: "Bookman Old Style";
+	font-size: 15px;
+}
